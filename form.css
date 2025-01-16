@@ -1,0 +1,85 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+form{
+    /* background-color: burlywood; */
+    /* border: 2px solid; */
+    width: 300px;
+    margin: 0 auto;
+    padding: 40px;
+    font-family: sans-serif;
+legend{
+    font-size: 32px;
+    text-align: center;
+    font-weight: bold;
+    color: crimson;
+}
+label{
+    font-size: 18px;
+    
+}
+sup{
+    font-size: 18px;
+    color: red;
+    font-weight: 700;
+}
+input{
+    border: none;
+    background-color: aliceblue;
+    width: 280px;
+    border-bottom: 1px solid black;
+    padding: 10px 5px 10px;
+    margin:2px 0px 15px 0px;
+    font-size: 18px;
+}
+div button{
+    border: none;
+    background-color: aliceblue;
+    width: 260px;
+    padding-top: 12.5px;
+    padding-bottom: 12.5px;
+    margin-bottom: 12px;
+    border-bottom: 1px solid black;
+    cursor: pointer;
+}
+div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+input[type=checkbox]{
+width:20px;
+margin:0px;
+}
+div p a{
+    border-bottom: 2px solid blue;
+    background: linear-gradient(red , blue);
+    -webkit-background-clip: text; 
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+input:focus{
+    outline: none;
+}
+input[type=submit]{
+    color: white;
+    margin: 20px 0px 0px 0px;
+    background-color: blue;
+    border-radius: 10px;
+    border-bottom: 4px solid salmon;
+    cursor: pointer;
+}
+input[type=submit]:hover{
+    background-color: salmon;
+    border-bottom: 4px solid blue;
+}
+p{
+    font-size: 18px;
+}
+a{
+     text-decoration: none;
+}
+
+
+
